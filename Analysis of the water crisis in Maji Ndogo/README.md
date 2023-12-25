@@ -45,7 +45,7 @@ The following power Bi features were incorporated
 ## Data Sourcing 
 The data collected on water sources and water collection in Maji Ndogo provide us with a deeper understanding of the daily life of its inhabitants and the critical role water plays in their lives.
 
-[Link to dataset]()
+[Link to dataset](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Md_water_services_data.xlsx)
 
 It contains 8 sheets/tables
 - well_pollution
@@ -61,19 +61,35 @@ It contains 8 sheets/tables
 
 ## Data Modelling
 
+
+Automatically derived relationships are adjusted to remove and replace unwanted relationships with the required
+
+<img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Model.png" />
+
+The model is a star schema 
+There are 7 dimension tables and 1 fact table the dimension tables are all joined to the fact table with a one to many relationship 
+
+
 ## Visualisation
 
-I created a report that followed the stakeholder requirements .
+I created a report that followed the stakeholder requirements.
 
 The report comprises of two pages 
 1.	National
-2.	Province info (which one can navigate to using the drill through feature by right clicking on a province)
+2.	Province info (which one can navigate to using the drill through feature by right clicking province on the national page)
+
+National | Province info
+:-----:|:-----:
+<img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Images/Water%20Crisis%20Viz%20image%204.PNG"  />|  <img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Images/Water%20Crisis%20Viz%20Image%206.PNG" /> 
+<img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Images/Water%20Crisis%20Viz%20Image%205.PNG" /> | <img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Images/Water%20Crisis%20Viz%20image%207.PNG" /> 
+
+Here is a video showing how to interact with the visualization
 
 
-[Video of Report]
+https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/assets/114422925/559e24ed-9b89-4081-8466-c7faa12836fc
 
 
-[How I created the visualization](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/How%20I%20created%20the%20visualization)
+[Click Here to see how i created the visualization](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/How%20I%20created%20the%20visualization)
 
 
 
