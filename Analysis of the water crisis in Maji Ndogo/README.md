@@ -91,7 +91,7 @@ Here is a video showing how to interact with the visualization
 https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/assets/114422925/559e24ed-9b89-4081-8466-c7faa12836fc
 
 
-[Click Here to see how i created the Report](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/How%20I%20created%20the%20visualization)
+[Click Here to see how i created the Report](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/How%20I%20created%20the%20Water%20Crisis%20Report.md)
 
 
 
