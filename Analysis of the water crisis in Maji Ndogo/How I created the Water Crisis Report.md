@@ -1,6 +1,8 @@
-https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/assets/114422925/559e24ed-9b89-4081-8466-c7faa12836fc
+# How I Created the Water Crisis Report
 
-### National page
+[title pic]
+
+## National page
 
 I started to create the visualization by looking at the stakeholder requirements from the National leader 
 
@@ -72,4 +74,39 @@ Step 2, the final step is to create a new measure that calculates the basic wate
 
 [Picture of DAX]
 
+Ok, so now we have calculated two things; how much will all of these upgrades cost (Budgeted_improvement_cost), and what will be the impact (Basic_access_water_level)? 
+
+[Pic with upgrades]
+
+For the last part of the national page 
+-	What will this cost (Budget by province, Budget by improvement type)
+Now in the third block I want to give the President all of the financial information needed to make decisions. The president will want to understand the costs at a provincial level, and also understand what the different improvements will cost us 
+Since The president will have to send the local provinces some funds, I need to  create a budget table. The downside is that tables struggle toshow a part-of-a-whole story, let's visualise the budget too. 
+Instead of trying to cram all of the information into the third block, I made a bookmark! I added a button that will toggle between the Province and Improvements tables. This way the user can choose which data to focus on. 
+Here are some images for the buttons:
+
+[image of button]
+
+I created two bookmarks, Province and Improvements. For the Province bookmark, I hid the Improvements_table, and for Improvements I hid the Province_table and province pie chart, The buttons will allow me to toggle between these two bookmarks. 
+I used the selection and bookmarks panes to add two buttons that toggle between Province and Improvements bookmarks. 
+I followed the following steps in order to create the functional buttons
+1.	Name the visuals, buttons, and images properly. 
+2.	Add two buttons and add the two images into the buttons.
+3.	Use the selection pane to display and hide the elements that don’t need to be seen in the  bookmark. 
+4.	The button showing in the Province bookmark should open the Improvements bookmark and vice-versa. Use this to set the actions. 
+5.	Make sure the buttons are in front of your images. Move elements up and down the selection pane to do this. 
+6.	Test buttons to see if they work
+
+[Pic of both viz from toggling bookmarks]
+
+Next to our heading, I added a placeholder for some high-impact statistics.  needs to know how much money we will need, and what problem the money will solve. So the total cost is a key metric I wanted to display. 
+I added a card with the total cost of upgrades and the current percentage of basic access to water.
+
+## Province Info
+
+Now we have built the National level report, but we still need to make one for each province. For example, what would the provincial leader of Amanzi need to know? At a minimum, a breakdown of the budget for each town (quantity and cost), the two visuals showing the urban/rural split and the budget are needed.
+
+[pic of report page] 
+
+https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/assets/114422925/559e24ed-9b89-4081-8466-c7faa12836fc
 
