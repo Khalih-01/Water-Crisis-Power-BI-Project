@@ -66,7 +66,7 @@ It contains 8 sheets/tables
 
 Automatically derived relationships are adjusted to remove and replace unwanted relationships with the required
 
-<img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Model.png" />
+<img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Model.PNG" />
 
 The model is a multi star schema 
 There are 4 dimension tables and 3 fact table, the dimension tables are all joined to their related fact table with a one to many relationship 
