@@ -45,6 +45,8 @@ The following power Bi features were incorporated
 ## Data Sourcing 
 The data collected on water sources and water collection in Maji Ndogo provide us with a deeper understanding of the daily life of its inhabitants and the critical role water plays in their lives.
 
+Data was sourced from ALX Africa/ExploreAI.
+
 [Link to dataset](https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Md_water_services_data.xlsx)
 
 It contains 8 sheets/tables
@@ -57,7 +59,7 @@ It contains 8 sheets/tables
 - infrastructure_cost
 - water_source_related_crimes
 
-** _Disclaimer_ **: _All datasets and reports do not represent any company, institution or country, just a dummy dataset._ 
+**_Disclaimer_**: _All datasets and reports do not represent any company, institution or country, just a dummy dataset._ 
 
 ## Data Modelling
 
@@ -66,8 +68,8 @@ Automatically derived relationships are adjusted to remove and replace unwanted 
 
 <img src="https://github.com/Khalih-01/Water-Crisis-Power-BI-Project/blob/main/Analysis%20of%20the%20water%20crisis%20in%20Maji%20Ndogo/Model.png" />
 
-The model is a star schema 
-There are 7 dimension tables and 1 fact table the dimension tables are all joined to the fact table with a one to many relationship 
+The model is a multi star schema 
+There are 4 dimension tables and 3 fact table, the dimension tables are all joined to their related fact table with a one to many relationship 
 
 
 ## Visualisation
